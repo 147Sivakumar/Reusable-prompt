@@ -61,14 +61,14 @@ I tested the same reusable prompt with different FOR blocks.
 South_Indian_7_Day_Vegetarian_Meal_Plan_Age30.pdf
 
 This run was created for a 30-year-old person working towards gradual weight loss.
-
+- [📄 View Age 30 Meal Plan](./South_Indian_7_Day_Vegetarian_Meal_Plan_Age30.pdf)
 ## Run 2
 South_Indian_7_Day_Weight_Gain_Meal_Plan_Age38.pdf
 
 This run used the same prompt but changed the FOR details for a 38-year-old person with a weight-gain goal.
 
 This shows that the prompt is reusable and can produce different plans by changing the person's details without rewriting the whole prompt.
-
+- [📄 View Age 38 Meal Plan](./South_Indian_7_Day_Weight_Gain_Meal_Plan_Age38.pdf)
 ## What I Changed After Testing
 After the first run, I made the prompt more specific about portion sizes, South Indian dishes, local ingredients, cooking time, allergies, and the exact table format.
 
