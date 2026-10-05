@@ -13,11 +13,11 @@ The prompt can be reused for different people by changing only the **FOR** secti
 ├── meal_plan_prompt.md
 ├── South_Indian_7_Day_Vegetarian_Meal_Plan_Age30.pdf
 └── South_Indian_7_Day_Weight_Gain_Meal_Plan_Age38.pdf
-
-meal_plan_prompt.md
+```
+## meal_plan_prompt.md
 This is the reusable prompt used to generate the meal plans.
 
-The prompt includes:
+## The prompt includes:
 
 - AI role
 
