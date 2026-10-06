@@ -12,7 +12,11 @@ The prompt can be reused for different people by changing only the **FOR** secti
 ├── README.md
 ├── meal_plan_prompt.md
 ├── South_Indian_7_Day_Vegetarian_Meal_Plan_Age30.pdf
-└── South_Indian_7_Day_Weight_Gain_Meal_Plan_Age38.pdf
+├── South_Indian_7_Day_Weight_Gain_Meal_Plan_Age38.pdf
+├── sequential_prompting.md
+├── chain_of_thought.md
+├── tree_of_thought.md
+└──Prompt_Engineering_Exam_Question_Paper.pdf
 ```
 ## meal_plan_prompt.md
 This is the reusable prompt used to generate the meal plans.
@@ -77,3 +81,54 @@ I also added checks to make sure all 7 days and all 4 meals per day are included
 
 Note
 The meal plans are AI-generated drafts for this assignment and are not professional medical or dietary advice. A personalised diet plan should be prepared with a qualified dietitian or healthcare professional.for this assignment and are not professional medical or dietary advice. A personalised diet plan should be prepared with a qualified dietitian or healthcare professional.
+
+## sequential prompting
+Absolutely. Here’s a practical sequential prompting example for a branding product, where each prompt builds on the output of the previous step.
+
+## Example: Branding a New Product — Premium Organic Coffee
+Product: A premium organic coffee brand aimed at young professionals.
+## The sequential structure
+## Research → Strategy → Naming → Identity → Visual Design → Packaging → Marketing → Brand Review
+
+The key idea is that each prompt explicitly uses and validates the output of the previous prompt, rather than asking one giant prompt to create the entire brand at once. This makes the process easier to control, refine, and iterate.
+
+## Chain of thought
+Chain-of-Thought (CoT) prompting example for a branding product. I'll use a fictional skincare product so the difference is clear.
+
+Note: For CoT, it’s better to ask the model for a concise rationale or key considerations rather than requesting its private hidden chain-of-thought.
+
+## Flow
+## Customer → Positioning → USP → Personality → Name → Tagline → Visual Identity → Brand Story
+
+This is a linear reasoning approach: one decision leads to the next.
+
+## Tree of thought
+## Tree-of-Thoughts style — Branding Product
+Here, instead of following only one path, you ask the model to explore multiple branding directions, compare them, and select the strongest one.
+
+## Flow
+                    BRANDING PRODUCT
+                          |
+          ┌───────────────┼───────────────┐
+          ↓               ↓               ↓
+     Direction A      Direction B      Direction C
+      Natural          Premium           Modern
+          |               |               |
+      Evaluate         Evaluate         Evaluate
+          └───────────────┼───────────────┘
+                          ↓
+                   Compare & Score
+                          ↓
+                  Select Best Route
+                          ↓
+                  Final Brand Identity
+
+## CoT vs ToT for branding
+Approach	How it works	Best for
+CoT	One logical path, step by step	Developing one coherent brand
+ToT	Multiple possible paths are explored and compared	Choosing between different brand concepts
+
+## Simple example:
+CoT says: “Let's develop one brand carefully from start to finish.”
+
+ToT says: “Let's develop three different brands, compare them, and choose the strongest one.”
