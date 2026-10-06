@@ -82,6 +82,9 @@ I also added checks to make sure all 7 days and all 4 meals per day are included
 Note
 The meal plans are AI-generated drafts for this assignment and are not professional medical or dietary advice. A personalised diet plan should be prepared with a qualified dietitian or healthcare professional.for this assignment and are not professional medical or dietary advice. A personalised diet plan should be prepared with a qualified dietitian or healthcare professional.
 
+
+
+
 ## sequential prompting
 Absolutely. Here’s a practical sequential prompting example for a branding product, where each prompt builds on the output of the previous step.
 
@@ -92,6 +95,9 @@ Product: A premium organic coffee brand aimed at young professionals.
 
 The key idea is that each prompt explicitly uses and validates the output of the previous prompt, rather than asking one giant prompt to create the entire brand at once. This makes the process easier to control, refine, and iterate.
 
+
+
+
 ## Chain of thought
 Chain-of-Thought (CoT) prompting example for a branding product. I'll use a fictional skincare product so the difference is clear.
 
@@ -101,6 +107,9 @@ Note: For CoT, it’s better to ask the model for a concise rationale or key con
 ## Customer → Positioning → USP → Personality → Name → Tagline → Visual Identity → Brand Story
 
 This is a linear reasoning approach: one decision leads to the next.
+
+
+
 
 ## Tree of thought
 ## Tree-of-Thoughts style — Branding Product
@@ -124,9 +133,9 @@ Here, instead of following only one path, you ask the model to explore multiple 
                   Final Brand Identity
 
 ## CoT vs ToT for branding
-Approach	How it works	Best for
-CoT	One logical path, step by step	Developing one coherent brand
-ToT	Multiple possible paths are explored and compared	Choosing between different brand concepts
+## Approach	   How it works	                                            Best for
+   'CoT'	     One logical path, step by step	                          Developing one coherent brand
+   'ToT'	     Multiple possible paths are explored and compared	      Choosing between different brand concepts
 
 ## Simple example:
 CoT says: “Let's develop one brand carefully from start to finish.”
