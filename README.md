@@ -134,8 +134,8 @@ Here, instead of following only one path, you ask the model to explore multiple 
 
 ## CoT vs ToT for branding
 ## Approach	   How it works	                                            Best for
-   'CoT'	     One logical path, step by step	                          Developing one coherent brand
-   'ToT'	     Multiple possible paths are explored and compared	      Choosing between different brand concepts
+   - CoT	     One logical path, step by step	                          Developing one coherent brand
+   - ToT	     Multiple possible paths are explored and compared	      Choosing between different brand concepts
 
 ## Simple example:
 CoT says: “Let's develop one brand carefully from start to finish.”
